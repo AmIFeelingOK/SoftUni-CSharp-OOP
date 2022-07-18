@@ -21,7 +21,7 @@ namespace AnimalFarm
             {
                 return this.name;
             }
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -38,7 +38,7 @@ namespace AnimalFarm
             {
                 return this.age;
             }
-            set
+            private set
             {
                 if (value <= 0 || value > 15)
                 {
